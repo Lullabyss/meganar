@@ -1,1 +1,191 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="img/favanar.png">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<title>Les aventures de Méganar</title>
+
+</head>
+
+<body>
+
+	<header class="accueil">
+		<p id="cp">
+			Scénario, dessin et site par Claire Havard.
+			<br>Le code complexe est réalisé par Léopold, merci à lui !
+		</p>
+		<p id="titre">
+			Pour votre confort, nous invitons à lire sur deskop.
+		</p>
+		<p id="soustitre">
+			Scrolling vertical
+		</p>
+		<img class="fleche" src="img/fleche.png">
+	</header>
+
+
+	<div id="bd">
+		<div class="plancheun">
+			<img src="img/planche-01.jpg">
+		</div>
+
+
+		<div id="p2" class="planche">
+			<section class="parralax-element">
+				<div class="paralax-back">
+					<img src="img/planche-02-A.jpg">
+				</div>
+			</section>
+			<section class="parralax-element">
+				<div id="p2-base" class="paralax-base">
+					<img src="img/planche-02-B.png">
+				</div>
+			</section>
+			<section class="parralax-element">
+				<div id="p2-front" class="paralax-front paralax-front--transform">
+					<img src="img/planche-02-C.png">
+				</div>
+			</section>
+		</div>
+
+
+		<div class="planche planchetrois">
+			<img src="img/planche-03.jpg">
+		</div>
+
+		<div class="planche planchequatre">
+			<img src="img/planche-04.jpg">
+		</div>
+
+		<div class="planche planchecinq">
+			<img src="img/planche-05.jpg">
+		</div>
+
+		<div class="planche planchesix">
+			<img src="img/planche-06.jpg">
+		</div>
+
+		<div class="planche planchesept">
+			<img src="img/planche-07.jpg">
+		</div>
+
+		<div class="planche planchehuit">
+			<img src="img/planche-08.jpg">
+		</div>
+
+		<div class="planche plancheneuf">
+			<img src="img/planche-09.jpg">
+		</div>
+
+
+		<div id="p10"class="planche">
+			<section class="parralax-element">
+				<div class="paralax-back">
+					<img src="img/planche-10-A.png">
+				</div>
+			</section>
+			<section class="parralax-element">
+				<div id="p10-base" class="paralax-base">
+					<img src="img/planche-10-B.png">
+				</div>
+			</section>
+			<section class="parralax-element">
+				<div id="p10-front" class="paralax-front paralax-front--transform">
+					<img src="img/planche-10-C.png">
+				</div>
+			</section>
+		</div>
+
+		<div class="planche plancheonze">
+			<img src="img/planche-11.jpg">
+		</div>
+
+		<div class="planche planchedouze">
+			<img src="img/planche-12.jpg">
+		</div>
+
+		<div class="planche planchetreize">
+			<img src="img/planche-13.jpg">
+		</div>
+
+		<div class="planche planchequatorze">
+			<img src="img/planche-14.jpg">
+		</div>
+
+		<div class="planche planchequinze">
+			<img src="img/planche-15.jpg">
+		</div>
+
+		<script src="css/leo.js"></script>
+	</div>
+
+	<section class="epilogue">
+		<div class="fabcaro" id="ellipse">
+			<img src="img/epilogue-00.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-01.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-02.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-03.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-04.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-05.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-06.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-07.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-08.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-09.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-00.jpg">
+		</div>
+
+		<div class="fabcaro">
+			<img src="img/epilogue-00.jpg">
+		</div>
+
+		<div class="fabcaro" id="fin">
+			<img src="img/epilogue-11.jpg">
+		</div>	
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				$('.accueil').css("opacity", 1 - $(window).scrollTop() / 600)
+			})
+		})
+	</script>
+
+</body>
+</html>
