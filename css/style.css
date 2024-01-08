@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+/*Header*/
+.accueil{
+  background-color: black;
+  width: 100%;
+  height: 680px;
+  color: white;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+/*  box-shadow: 0px 25px 25px rgba(0, 0, 0, 1);*/
+}
+
+#cp{
+  font-size: 0.8em;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 150%;
+  text-align: right;
+  padding-top: 80px;
+  padding-right: 300px;
+}
+
+#titre{
+  font-size: 2.1em;
+  font-weight: 200;
+  font-style: italic;
+  padding-top: 180px;
+  padding-bottom: 75px;
+}
+
+#soustitre{
+  font-size: 1em;
+  font-weight: 600;
+  font-style: italic;
+  padding: 25px;
+}
+
+.fleche{
+  height: 100px;
+}
+
+.fleche img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*Mise en page générale*/
+#bd{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+#bd img {
+  display: block;
+  object-fit: contain;
+  width:  100%;
+  height: 100%;
+}
+
+
+
+/*Planches*/
+.planche {
+  position: relative;
+}
+
+.plancheun{
+  margin-top: 300px;
+  margin-bottom: 150px;
+}
+
+.planchetrois{
+/*  margin-top: 100px;
+*/  margin-bottom: 300px;
+}
+
+.planchecinq{
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+
+.planchesept{
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.plancheneuf {
+  margin-top: 150px;
+  margin-bottom: 180px;
+}
+
+.plancheonze {
+  margin-top: 150px;
+  margin-bottom: 220px;
+}
+
+.planchetreize{
+  margin-top: 250px;
+  margin-bottom: 140px;
+}
+
+.planchequinze{
+  margin-top: 200px;
+}
+
+
+/*Épilogue*/
+.epilogue{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.epilogue img {
+  display: block;
+  object-fit: contain;
+  width:  100%;
+  height: 100%;
+}
+
+
+.fabcaro{
+  margin-top: 190px;
+}
+
+#ellipse{
+  margin-top: 500px;
+}
+
+#fin{
+  margin-bottom: 100px;
+}
+
+
+
+
+/*Le double-parallaxe de gros BG*/
+.parralax-element {
+  position: absolute;
+}
+
+#p2 {
+  height: 1080px;
+}
+#p10 {
+  height: 870px;
+}
+
+.paralax-back {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.paralax-base {
+  position: relative;
+  margin-bottom: 105px;
+}
+
+.paralax-front {
+  position: relative;
+  margin-bottom: 110px;
+}
